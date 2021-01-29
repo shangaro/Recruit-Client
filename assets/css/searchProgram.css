@@ -1,0 +1,42 @@
+.step {
+  height: 15px;
+  width: 15px;
+  margin: 2px;
+  background-color: #8a3efc;
+  border: none;
+  border-radius: 50%;
+  display: inline-block;
+  opacity: 0.5;
+}
+
+.step.active {
+  opacity: 1;
+}
+
+.step.finish {
+  background-color: #4CAF50;
+}
+
+#step-btns .btn {
+  background-color: #8a3efc;
+  color: white;
+}
+
+.tab {
+  /*display: none;*/
+}
+
+#gre-form, #gmat-form {
+  display: none;
+}
+
+@media (max-width: 360px) {
+  #language-input-scores input:not(:last-child) {
+    margin-bottom: 0.5rem;
+  }
+}
+
+#language-input-scores {
+  /*display: none;*/
+}
+

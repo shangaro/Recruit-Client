@@ -1,0 +1,25 @@
+.section .section-heading {
+  text-align: center;
+}
+
+.section .section-subheading {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.section.australia {
+  background-color: #fff;
+  z-index: 2;
+}
+
+.section {
+  margin: 4rem 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+#australia-card {
+  background-color: #f3f3f3 !important;
+  max-height: 16rem;
+}
+

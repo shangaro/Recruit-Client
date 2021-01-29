@@ -1,0 +1,9 @@
+#a-content {
+  display: flex;
+  flex-direction: column;
+}
+
+#a-filter-form {
+  margin-top: 1rem;
+}
+
